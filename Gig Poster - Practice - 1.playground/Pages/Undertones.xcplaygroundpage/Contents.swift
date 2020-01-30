@@ -57,7 +57,10 @@ let deepRed = Color(hue: 7, saturation: 97, brightness: 72, alpha: 100)
 //// Draw square
 //    canvas.drawRectangle(at: Point(x:0, y:0), width: 50, height: 50)
 
+// Change background color
+canvas.fillColor = lightGrey
 
+canvas.drawRectangle(at: Point(x: 0, y:0), width: 400, height: 600)
 
 /*:
  ## Use Source Control
